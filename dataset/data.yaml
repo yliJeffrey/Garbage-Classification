@@ -1,0 +1,6 @@
+train: /home/yli284/CSC245/train  # path to training images
+val: /home/yli284/CSC245/val    # path to validation images
+test: /home/yli284/CSC245/test    # path to test images, optional
+
+nc: 6                          # number of classes, replace with your actual count
+names: ['paper', 'glass', 'plastic', 'metal', 'cardboard', 'trash']     # list of class names, replace with actual class names
